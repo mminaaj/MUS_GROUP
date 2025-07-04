@@ -1,0 +1,39 @@
+
+
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; overflow-x: hidden; }
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 150%;
+    max-height: 200%;
+    z-index: -1;
+    object-fit: contain;
+}
+
+
+header { background: #00695c; font-family: Arial, sans-serif; display:flex ;  align-items: center ; padding: 10px 10px; }
+header .logo { height: 40px; margin-left: 15px;}
+
+nav ul { list-style: none; display: flex; margin: 5px; padding: 10px; text-align:center; }
+nav li { margin-left: 5px; margin-right: 215px;  } 
+
+nav a { color: white; text-decoration: none; font-weight: bold;text-align: center; }
+nav a:hover {
+    color: #242424;
+    font-size: 1.2em;
+}
+
+.hero p:hover {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+
+
+.contact { text-align: center; padding: 125px 50px;  color: #242424;}
+form { display: flex; flex-direction: column; align-items: center; gap: 10px; max-width: 400px; margin: 0 auto; }
+input, textarea { width: 100%; padding: 10px; }
+button { background: #961212; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+button:hover { background: #a30000; }
+footer { background: #00695c; color: white; text-align: center; padding: 10px 0; margin-bottom: 0px ;
+}

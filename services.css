@@ -1,0 +1,37 @@
+
+body { margin: 0; font-family: Arial, sans-serif; background: #e0f7fa; }
+header { background: #00695c; display:flex ;  align-items: center ; padding: 15px 10px; }
+header .logo { height: 40px; margin-left: 15px;}
+nav ul { list-style: none; display: flex; margin: 2px; padding: 2px; text-align:center; }
+nav li { margin-left: 5px; margin-right: 215px;  } 
+nav a { color: white; text-decoration: none; font-weight: bold;text-align: center; }
+nav a { color: white; text-decoration: none; font-weight: bold;text-align: center; }
+
+nav a:hover {
+    color: #242424;
+    font-size: 1.2em;
+}
+.services { text-align: center; padding: 70px 100px; background: #242424; color: white; }
+footer { background: #00695c; color: white; text-align: center; padding: 10px 0; }
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* razmak između slika */
+    flex-wrap: wrap; /* da se prilagodi na manjim ekranima */
+    padding: 20px;
+}
+
+.image-gallery img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+h1 {
+    margin-bottom: 40px;
+    
+}
+p{
+    line-height: 1.5;
+}
